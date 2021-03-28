@@ -1,0 +1,46 @@
+.content{
+    margin: 100px auto;
+    width: 500px;
+    height: 400px;
+    background: url('../../Resources/background.jpg') 100% 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.cityName{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+.info{
+    display: flex;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.left,.right{
+    width: 60px;
+    height: 60px;
+    margin-top: 22px;
+}
+.refresh{
+    width: 110px;
+    height: 110px;
+    margin: 0 90px;
+}
+.box{
+   text-align: center;
+}
+.current{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.min{
+    margin-right:100px;
+}
+.weatherName{
+    margin-top: 20px;
+}
